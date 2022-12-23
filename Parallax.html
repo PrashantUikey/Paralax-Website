@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: rgb(93, 70, 70);
+        }
+
+        .pimg1{
+            background-image: url(image1.png);
+            min-height: 100%;
+            /* min-height: 100%;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat; */
+        }
+
+        .pimg2{
+            background-image: url(image2.png);
+            min-height: 400px;
+        }
+
+        .pimg3{
+            background-image: url(image3.png);
+            min-height: 400px;
+        }
+
+
+        .pimg1, .pimg2, .pimg3{
+           
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .ptext{
+            position:absolute;
+            top: 50%;
+            left: 33%;
+            text-align: center;
+            color: black;
+            font-size: 40px;
+            /* width: 523px; */
+            padding: 8px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        .textBg{
+            background-color: white;
+            opacity: 0.6;
+        }
+
+        .section{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 8px ;
+            text-align: center;
+        }
+
+        .section-dark{
+            background-color: #282e34;
+            color: rgb(242, 231, 211)
+        }
+
+        .section-light{
+            background-color: white;
+            color: #666;
+        }
+
+        .section-light-dark{
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section class="pimg1">
+        <div class="ptext">
+            <span class="textBg">
+              Parallax Website
+            </span>
+        </div>
+    </section>
+    <section class="section section-dark">
+        <h2>Section One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nam iusto maiores sunt inventore molestiae facilis, laboriosam voluptas facere qui, sed tempore quidem perferendis. Natus odit aperiam quibusdam possimus dolorem explicabo, quia cupiditate reiciendis placeat culpa, debitis veritatis distinctio molestias dolore excepturi error voluptate eum perspiciatis ullam numquam minus obcaecati consectetur. Odit vel beatae voluptatibus dicta assumenda, repudiandae ad tenetur soluta ea nam, labore aliquid. A voluptatibus et saepe laborum dignissimos illum voluptas molestiae nulla illo quod eaque vero quam natus temporibus accusantium sit architecto, porro cumque? Illo, corrupti autem.</p>
+    </section>
+    <section class="pimg2">
+        <div class="ptext">
+            <span class="textBg">
+              Explore Nature
+            </span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Section Two</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nam iusto maiores sunt inventore molestiae facilis, laboriosam voluptas facere qui, sed tempore quidem perferendis. Natus odit aperiam quibusdam possimus dolorem explicabo, quia cupiditate reiciendis placeat culpa, debitis veritatis distinctio molestias dolore excepturi error voluptate eum perspiciatis ullam numquam minus obcaecati consectetur. Odit vel beatae voluptatibus dicta assumenda, repudiandae ad tenetur soluta ea nam, labore aliquid. A voluptatibus et saepe laborum dignissimos illum voluptas molestiae nulla illo quod eaque vero quam natus temporibus accusantium sit architecto, porro cumque? Illo, corrupti autem.</p>
+    </section>
+    <section class="pimg3">
+        <div class="ptext">
+            <span class="textBg">
+              Look, Deep into Nature
+            </span>
+        </div>
+    </section>
+    <section class="section section-light-dark">
+        <h2>Section Three</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nam iusto maiores sunt inventore molestiae facilis, laboriosam voluptas facere qui, sed tempore quidem perferendis. Natus odit aperiam quibusdam possimus dolorem explicabo, quia cupiditate reiciendis placeat culpa, debitis veritatis distinctio molestias dolore excepturi error voluptate eum perspiciatis ullam numquam minus obcaecati consectetur. Odit vel beatae voluptatibus dicta assumenda, repudiandae ad tenetur soluta ea nam, labore aliquid. A voluptatibus et saepe laborum dignissimos illum voluptas molestiae nulla illo quod eaque vero quam natus temporibus accusantium sit architecto, porro cumque? Illo, corrupti autem.</p>
+    </section>
+</body>
+</html>
